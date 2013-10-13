@@ -36,8 +36,11 @@ OLD_VERSIONS = {
 }
 
 # Git commits hashes for Nark's newest builds.
-REPO_URL = "https://bitbucket.org/nark/wired.git"
+REPO_URL = "https://github.com/nark/wired.git"
 VERSIONS = {
+   # NOTE: Commits after 6562c3 block non-encrypted connections by default. You can
+   # change it in the config file, but this script doesn't do that automatically yet.
+   # "2.0b55" => "6562c307baa21e15d85cb7b7c59064bc81ca1a7d",
    "2.0b55" => "HEAD",
    "2.0b54" => "792793f70817ca7a389868056c78031cd373e3fe",
 }
